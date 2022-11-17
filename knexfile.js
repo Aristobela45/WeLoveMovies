@@ -4,7 +4,7 @@ require("dotenv").config();
 
 
 const {
-  DATABASE_URL,
+  DATABASE_URL = "postgres://mjfqzhwb:nsSc0SSxFj7Jj0ko_0MpZJSP1xkPPGhn@peanut.db.elephantsql.com/mjfqzhwb"
 
 } = process.env;
 
